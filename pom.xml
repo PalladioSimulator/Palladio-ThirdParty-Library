@@ -1047,7 +1047,7 @@ The Apache Software Foundation (http://www.apache.org/).
 									</artifacts>									
 								</feature>
 								<feature>
-									<id>org.eclipse.ecf.ch.ethz.feature</id>
+									<id>org.eclipse.ecf_ch.ethz.iks.r_osgi.remote.feature</id>
 									<version>${org.eclipse.ecf_ch.ethz.iks.r_osgi.remote.version}</version>
 									<label>ETHZ IKS R OSGi Remote</label>
 									<providerName>${project.groupId}</providerName>
