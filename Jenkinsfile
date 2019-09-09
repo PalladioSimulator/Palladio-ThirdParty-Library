@@ -1,4 +1,4 @@
 PalladioPipeline {
     deployUpdatesite 'target/repository'
-    skipCodeQuality = true
+    skipQualityMetrics true
 }
