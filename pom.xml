@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.palladiosimulator.thirdparty-library</groupId>
-	<artifactId>parent</artifactId>	
+	<artifactId>parent</artifactId>
 	<version>5.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -18,7 +18,8 @@
 		<ca.umontreal.iro.simul_ssj.version>3.3.1</ca.umontreal.iro.simul_ssj.version>
 		<org.apache.chemistry.opencmis.version>0.12.0</org.apache.chemistry.opencmis.version>
 		<org.jmockit_jmockit.version>1.49</org.jmockit_jmockit.version>
-		
+		<com.github.jsqlparser_jsqlparser.version>4.3</com.github.jsqlparser_jsqlparser.version>
+
 		<license.apache20>							Apache License${line.separator}
 					   Version 2.0, January 2004${line.separator}
 					http://www.apache.org/licenses/${line.separator}
@@ -929,7 +930,7 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY ${line.sepa
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, ${line.separator}
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE ${line.separator}
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</license.jmockit>
-		
+
 	</properties>
 
     <build>
@@ -973,7 +974,7 @@ Copyright 2010-2012 CS Systèmes d'Information
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.apache.commons.csv.feature</id>
@@ -996,7 +997,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.apache.commons.collections4.feature</id>
@@ -1019,7 +1020,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.jgrapht.feature</id>
@@ -1035,7 +1036,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>true</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.jgrapht.io.feature</id>
@@ -1067,7 +1068,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.eclipse.ecf_ch.ethz.iks.r_osgi.remote.feature</id>
@@ -1083,7 +1084,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>ca.umontreal.iro.ssj.feature</id>
@@ -1100,7 +1101,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.apache.chemistry.opencmis.feature</id>
@@ -1136,7 +1137,7 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
 								<feature>
 									<id>org.jmockit.jmockit.feature</id>
@@ -1152,9 +1153,25 @@ The Apache Software Foundation (http://www.apache.org/).
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
-									</artifacts>									
+									</artifacts>
 								</feature>
-							</featureDefinitions>									
+								<feature>
+									<id>com.github.jsqlparser.feature</id>
+									<version>${com.github.jsqlparser_jsqlparser.version}</version>
+									<label>JSqlParser</label>
+									<providerName>${project.groupId}</providerName>
+									<description>${project.description}</description>
+									<license>${license.apache20}</license>
+									<generateSourceFeature>true</generateSourceFeature>
+									<artifacts>
+										<artifact>
+											<id>com.github.jsqlparser:${org.jmockit_jmockit.version}</id>
+											<transitive>false</transitive>
+											<source>true</source>
+										</artifact>
+									</artifacts>
+								</feature>
+							</featureDefinitions>
                         </configuration>
                     </execution>
                 </executions>
