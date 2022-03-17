@@ -1165,7 +1165,7 @@ The Apache Software Foundation (http://www.apache.org/).
 									<generateSourceFeature>true</generateSourceFeature>
 									<artifacts>
 										<artifact>
-											<id>com.github.jsqlparser:${org.jmockit_jmockit.version}</id>
+											<id>com.github.jsqlparser:${com.github.jsqlparser_jsqlparser.version}</id>
 											<transitive>false</transitive>
 											<source>true</source>
 										</artifact>
