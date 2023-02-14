@@ -19,6 +19,7 @@
 		<org.apache.chemistry.opencmis.version>0.12.0</org.apache.chemistry.opencmis.version>
 		<org.jmockit_jmockit.version>1.49</org.jmockit_jmockit.version>
 		<com.github.jsqlparser_jsqlparser.version>4.4</com.github.jsqlparser_jsqlparser.version>
+		<org.openjdk.nashorn_nashorn-core.version>15.4</org.openjdk.nashorn_nashorn-core.version>
 
 		<license.apache20>							Apache License${line.separator}
 					   Version 2.0, January 2004${line.separator}
@@ -931,6 +932,387 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, ${line.sepa
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE ${line.separator}
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</license.jmockit>
 
+			<license.gpl2>The GNU General Public License (GPL)${line.separator}
+${line.separator}
+Version 2, June 1991${line.separator}
+${line.separator}
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.${line.separator}
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA${line.separator}
+${line.separator}
+Everyone is permitted to copy and distribute verbatim copies of this license${line.separator}
+document, but changing it is not allowed.${line.separator}
+${line.separator}
+Preamble${line.separator}
+${line.separator}
+The licenses for most software are designed to take away your freedom to share${line.separator}
+and change it.  By contrast, the GNU General Public License is intended to${line.separator}
+guarantee your freedom to share and change free software--to make sure the${line.separator}
+software is free for all its users.  This General Public License applies to${line.separator}
+most of the Free Software Foundation's software and to any other program whose${line.separator}
+authors commit to using it.  (Some other Free Software Foundation software is${line.separator}
+covered by the GNU Library General Public License instead.) You can apply it to${line.separator}
+your programs, too.${line.separator}
+${line.separator}
+When we speak of free software, we are referring to freedom, not price.  Our${line.separator}
+General Public Licenses are designed to make sure that you have the freedom to${line.separator}
+distribute copies of free software (and charge for this service if you wish),${line.separator}
+that you receive source code or can get it if you want it, that you can change${line.separator}
+the software or use pieces of it in new free programs; and that you know you${line.separator}
+can do these things.${line.separator}
+${line.separator}
+To protect your rights, we need to make restrictions that forbid anyone to deny${line.separator}
+you these rights or to ask you to surrender the rights.  These restrictions${line.separator}
+translate to certain responsibilities for you if you distribute copies of the${line.separator}
+software, or if you modify it.${line.separator}
+${line.separator}
+For example, if you distribute copies of such a program, whether gratis or for${line.separator}
+a fee, you must give the recipients all the rights that you have.  You must${line.separator}
+make sure that they, too, receive or can get the source code.  And you must${line.separator}
+show them these terms so they know their rights.${line.separator}
+${line.separator}
+We protect your rights with two steps: (1) copyright the software, and (2)${line.separator}
+offer you this license which gives you legal permission to copy, distribute${line.separator}
+and/or modify the software.${line.separator}
+${line.separator}
+Also, for each author's protection and ours, we want to make certain that${line.separator}
+everyone understands that there is no warranty for this free software.  If the${line.separator}
+software is modified by someone else and passed on, we want its recipients to${line.separator}
+know that what they have is not the original, so that any problems introduced${line.separator}
+by others will not reflect on the original authors' reputations.${line.separator}
+${line.separator}
+Finally, any free program is threatened constantly by software patents.  We${line.separator}
+wish to avoid the danger that redistributors of a free program will${line.separator}
+individually obtain patent licenses, in effect making the program proprietary.${line.separator}
+To prevent this, we have made it clear that any patent must be licensed for${line.separator}
+everyone's free use or not licensed at all.${line.separator}
+${line.separator}
+The precise terms and conditions for copying, distribution and modification${line.separator}
+follow.${line.separator}
+${line.separator}
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION${line.separator}
+${line.separator}
+0. This License applies to any program or other work which contains a notice${line.separator}
+placed by the copyright holder saying it may be distributed under the terms of${line.separator}
+this General Public License.  The "Program", below, refers to any such program${line.separator}
+or work, and a "work based on the Program" means either the Program or any${line.separator}
+derivative work under copyright law: that is to say, a work containing the${line.separator}
+Program or a portion of it, either verbatim or with modifications and/or${line.separator}
+translated into another language.  (Hereinafter, translation is included${line.separator}
+without limitation in the term "modification".) Each licensee is addressed as${line.separator}
+"you".${line.separator}
+${line.separator}
+Activities other than copying, distribution and modification are not covered by${line.separator}
+this License; they are outside its scope.  The act of running the Program is${line.separator}
+not restricted, and the output from the Program is covered only if its contents${line.separator}
+constitute a work based on the Program (independent of having been made by${line.separator}
+running the Program).  Whether that is true depends on what the Program does.${line.separator}
+${line.separator}
+1. You may copy and distribute verbatim copies of the Program's source code as${line.separator}
+you receive it, in any medium, provided that you conspicuously and${line.separator}
+appropriately publish on each copy an appropriate copyright notice and${line.separator}
+disclaimer of warranty; keep intact all the notices that refer to this License${line.separator}
+and to the absence of any warranty; and give any other recipients of the${line.separator}
+Program a copy of this License along with the Program.${line.separator}
+${line.separator}
+You may charge a fee for the physical act of transferring a copy, and you may${line.separator}
+at your option offer warranty protection in exchange for a fee.${line.separator}
+${line.separator}
+2. You may modify your copy or copies of the Program or any portion of it, thus${line.separator}
+forming a work based on the Program, and copy and distribute such modifications${line.separator}
+or work under the terms of Section 1 above, provided that you also meet all of${line.separator}
+these conditions:${line.separator}
+${line.separator}
+    a) You must cause the modified files to carry prominent notices stating${line.separator}
+    that you changed the files and the date of any change.${line.separator}
+${line.separator}
+    b) You must cause any work that you distribute or publish, that in whole or${line.separator}
+    in part contains or is derived from the Program or any part thereof, to be${line.separator}
+    licensed as a whole at no charge to all third parties under the terms of${line.separator}
+    this License.${line.separator}
+${line.separator}
+    c) If the modified program normally reads commands interactively when run,${line.separator}
+    you must cause it, when started running for such interactive use in the${line.separator}
+    most ordinary way, to print or display an announcement including an${line.separator}
+    appropriate copyright notice and a notice that there is no warranty (or${line.separator}
+    else, saying that you provide a warranty) and that users may redistribute${line.separator}
+    the program under these conditions, and telling the user how to view a copy${line.separator}
+    of this License.  (Exception: if the Program itself is interactive but does${line.separator}
+    not normally print such an announcement, your work based on the Program is${line.separator}
+    not required to print an announcement.)${line.separator}
+${line.separator}
+These requirements apply to the modified work as a whole.  If identifiable${line.separator}
+sections of that work are not derived from the Program, and can be reasonably${line.separator}
+considered independent and separate works in themselves, then this License, and${line.separator}
+its terms, do not apply to those sections when you distribute them as separate${line.separator}
+works.  But when you distribute the same sections as part of a whole which is a${line.separator}
+work based on the Program, the distribution of the whole must be on the terms${line.separator}
+of this License, whose permissions for other licensees extend to the entire${line.separator}
+whole, and thus to each and every part regardless of who wrote it.${line.separator}
+${line.separator}
+Thus, it is not the intent of this section to claim rights or contest your${line.separator}
+rights to work written entirely by you; rather, the intent is to exercise the${line.separator}
+right to control the distribution of derivative or collective works based on${line.separator}
+the Program.${line.separator}
+${line.separator}
+In addition, mere aggregation of another work not based on the Program with the${line.separator}
+Program (or with a work based on the Program) on a volume of a storage or${line.separator}
+distribution medium does not bring the other work under the scope of this${line.separator}
+License.${line.separator}
+${line.separator}
+3. You may copy and distribute the Program (or a work based on it, under${line.separator}
+Section 2) in object code or executable form under the terms of Sections 1 and${line.separator}
+2 above provided that you also do one of the following:${line.separator}
+${line.separator}
+    a) Accompany it with the complete corresponding machine-readable source${line.separator}
+    code, which must be distributed under the terms of Sections 1 and 2 above${line.separator}
+    on a medium customarily used for software interchange; or,${line.separator}
+${line.separator}
+    b) Accompany it with a written offer, valid for at least three years, to${line.separator}
+    give any third party, for a charge no more than your cost of physically${line.separator}
+    performing source distribution, a complete machine-readable copy of the${line.separator}
+    corresponding source code, to be distributed under the terms of Sections 1${line.separator}
+    and 2 above on a medium customarily used for software interchange; or,${line.separator}
+${line.separator}
+    c) Accompany it with the information you received as to the offer to${line.separator}
+    distribute corresponding source code.  (This alternative is allowed only${line.separator}
+    for noncommercial distribution and only if you received the program in${line.separator}
+    object code or executable form with such an offer, in accord with${line.separator}
+    Subsection b above.)${line.separator}
+${line.separator}
+The source code for a work means the preferred form of the work for making${line.separator}
+modifications to it.  For an executable work, complete source code means all${line.separator}
+the source code for all modules it contains, plus any associated interface${line.separator}
+definition files, plus the scripts used to control compilation and installation${line.separator}
+of the executable.  However, as a special exception, the source code${line.separator}
+distributed need not include anything that is normally distributed (in either${line.separator}
+source or binary form) with the major components (compiler, kernel, and so on)${line.separator}
+of the operating system on which the executable runs, unless that component${line.separator}
+itself accompanies the executable.${line.separator}
+${line.separator}
+If distribution of executable or object code is made by offering access to copy${line.separator}
+from a designated place, then offering equivalent access to copy the source${line.separator}
+code from the same place counts as distribution of the source code, even though${line.separator}
+third parties are not compelled to copy the source along with the object code.${line.separator}
+${line.separator}
+4. You may not copy, modify, sublicense, or distribute the Program except as${line.separator}
+expressly provided under this License.  Any attempt otherwise to copy, modify,${line.separator}
+sublicense or distribute the Program is void, and will automatically terminate${line.separator}
+your rights under this License.  However, parties who have received copies, or${line.separator}
+rights, from you under this License will not have their licenses terminated so${line.separator}
+long as such parties remain in full compliance.${line.separator}
+${line.separator}
+5. You are not required to accept this License, since you have not signed it.${line.separator}
+However, nothing else grants you permission to modify or distribute the Program${line.separator}
+or its derivative works.  These actions are prohibited by law if you do not${line.separator}
+accept this License.  Therefore, by modifying or distributing the Program (or${line.separator}
+any work based on the Program), you indicate your acceptance of this License to${line.separator}
+do so, and all its terms and conditions for copying, distributing or modifying${line.separator}
+the Program or works based on it.${line.separator}
+${line.separator}
+6. Each time you redistribute the Program (or any work based on the Program),${line.separator}
+the recipient automatically receives a license from the original licensor to${line.separator}
+copy, distribute or modify the Program subject to these terms and conditions.${line.separator}
+You may not impose any further restrictions on the recipients' exercise of the${line.separator}
+rights granted herein.  You are not responsible for enforcing compliance by${line.separator}
+third parties to this License.${line.separator}
+${line.separator}
+7. If, as a consequence of a court judgment or allegation of patent${line.separator}
+infringement or for any other reason (not limited to patent issues), conditions${line.separator}
+are imposed on you (whether by court order, agreement or otherwise) that${line.separator}
+contradict the conditions of this License, they do not excuse you from the${line.separator}
+conditions of this License.  If you cannot distribute so as to satisfy${line.separator}
+simultaneously your obligations under this License and any other pertinent${line.separator}
+obligations, then as a consequence you may not distribute the Program at all.${line.separator}
+For example, if a patent license would not permit royalty-free redistribution${line.separator}
+of the Program by all those who receive copies directly or indirectly through${line.separator}
+you, then the only way you could satisfy both it and this License would be to${line.separator}
+refrain entirely from distribution of the Program.${line.separator}
+${line.separator}
+If any portion of this section is held invalid or unenforceable under any${line.separator}
+particular circumstance, the balance of the section is intended to apply and${line.separator}
+the section as a whole is intended to apply in other circumstances.${line.separator}
+${line.separator}
+It is not the purpose of this section to induce you to infringe any patents or${line.separator}
+other property right claims or to contest validity of any such claims; this${line.separator}
+section has the sole purpose of protecting the integrity of the free software${line.separator}
+distribution system, which is implemented by public license practices.  Many${line.separator}
+people have made generous contributions to the wide range of software${line.separator}
+distributed through that system in reliance on consistent application of that${line.separator}
+system; it is up to the author/donor to decide if he or she is willing to${line.separator}
+distribute software through any other system and a licensee cannot impose that${line.separator}
+choice.${line.separator}
+${line.separator}
+This section is intended to make thoroughly clear what is believed to be a${line.separator}
+consequence of the rest of this License.${line.separator}
+${line.separator}
+8. If the distribution and/or use of the Program is restricted in certain${line.separator}
+countries either by patents or by copyrighted interfaces, the original${line.separator}
+copyright holder who places the Program under this License may add an explicit${line.separator}
+geographical distribution limitation excluding those countries, so that${line.separator}
+distribution is permitted only in or among countries not thus excluded.  In${line.separator}
+such case, this License incorporates the limitation as if written in the body${line.separator}
+of this License.${line.separator}
+${line.separator}
+9. The Free Software Foundation may publish revised and/or new versions of the${line.separator}
+General Public License from time to time.  Such new versions will be similar in${line.separator}
+spirit to the present version, but may differ in detail to address new problems${line.separator}
+or concerns.${line.separator}
+${line.separator}
+Each version is given a distinguishing version number.  If the Program${line.separator}
+specifies a version number of this License which applies to it and "any later${line.separator}
+version", you have the option of following the terms and conditions either of${line.separator}
+that version or of any later version published by the Free Software Foundation.${line.separator}
+If the Program does not specify a version number of this License, you may${line.separator}
+choose any version ever published by the Free Software Foundation.${line.separator}
+${line.separator}
+10. If you wish to incorporate parts of the Program into other free programs${line.separator}
+whose distribution conditions are different, write to the author to ask for${line.separator}
+permission.  For software which is copyrighted by the Free Software Foundation,${line.separator}
+write to the Free Software Foundation; we sometimes make exceptions for this.${line.separator}
+Our decision will be guided by the two goals of preserving the free status of${line.separator}
+all derivatives of our free software and of promoting the sharing and reuse of${line.separator}
+software generally.${line.separator}
+${line.separator}
+NO WARRANTY${line.separator}
+${line.separator}
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR${line.separator}
+THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN OTHERWISE${line.separator}
+STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE${line.separator}
+PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,${line.separator}
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND${line.separator}
+FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND${line.separator}
+PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE,${line.separator}
+YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.${line.separator}
+${line.separator}
+12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL${line.separator}
+ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE${line.separator}
+PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY${line.separator}
+GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR${line.separator}
+INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA${line.separator}
+BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A${line.separator}
+FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER${line.separator}
+OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.${line.separator}
+${line.separator}
+END OF TERMS AND CONDITIONS${line.separator}
+${line.separator}
+How to Apply These Terms to Your New Programs${line.separator}
+${line.separator}
+If you develop a new program, and you want it to be of the greatest possible${line.separator}
+use to the public, the best way to achieve this is to make it free software${line.separator}
+which everyone can redistribute and change under these terms.${line.separator}
+${line.separator}
+To do so, attach the following notices to the program.  It is safest to attach${line.separator}
+them to the start of each source file to most effectively convey the exclusion${line.separator}
+of warranty; and each file should have at least the "copyright" line and a${line.separator}
+pointer to where the full notice is found.${line.separator}
+${line.separator}
+    One line to give the program's name and a brief idea of what it does.${line.separator}
+${line.separator}
+    Copyright (C) &lt;year> &lt;name of author>${line.separator}
+${line.separator}
+    This program is free software; you can redistribute it and/or modify it${line.separator}
+    under the terms of the GNU General Public License as published by the Free${line.separator}
+    Software Foundation; either version 2 of the License, or (at your option)${line.separator}
+    any later version.${line.separator}
+${line.separator}
+    This program is distributed in the hope that it will be useful, but WITHOUT${line.separator}
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or${line.separator}
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for${line.separator}
+    more details.${line.separator}
+${line.separator}
+    You should have received a copy of the GNU General Public License along${line.separator}
+    with this program; if not, write to the Free Software Foundation, Inc.,${line.separator}
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.${line.separator}
+${line.separator}
+Also add information on how to contact you by electronic and paper mail.${line.separator}
+${line.separator}
+If the program is interactive, make it output a short notice like this when it${line.separator}
+starts in an interactive mode:${line.separator}
+${line.separator}
+    Gnomovision version 69, Copyright (C) year name of author Gnomovision comes${line.separator}
+    with ABSOLUTELY NO WARRANTY; for details type 'show w'.  This is free${line.separator}
+    software, and you are welcome to redistribute it under certain conditions;${line.separator}
+    type 'show c' for details.${line.separator}
+${line.separator}
+The hypothetical commands 'show w' and 'show c' should show the appropriate${line.separator}
+parts of the General Public License.  Of course, the commands you use may be${line.separator}
+called something other than 'show w' and 'show c'; they could even be${line.separator}
+mouse-clicks or menu items--whatever suits your program.${line.separator}
+${line.separator}
+You should also get your employer (if you work as a programmer) or your school,${line.separator}
+if any, to sign a "copyright disclaimer" for the program, if necessary.  Here${line.separator}
+is a sample; alter the names:${line.separator}
+${line.separator}
+    Yoyodyne, Inc., hereby disclaims all copyright interest in the program${line.separator}
+    'Gnomovision' (which makes passes at compilers) written by James Hacker.${line.separator}
+${line.separator}
+    signature of Ty Coon, 1 April 1989${line.separator}
+${line.separator}
+    Ty Coon, President of Vice${line.separator}
+${line.separator}
+This General Public License does not permit incorporating your program into${line.separator}
+proprietary programs.  If your program is a subroutine library, you may${line.separator}
+consider it more useful to permit linking proprietary applications with the${line.separator}
+library.  If this is what you want to do, use the GNU Library General Public${line.separator}
+License instead of this License.${line.separator}
+${line.separator}
+${line.separator}
+"CLASSPATH" EXCEPTION TO THE GPL${line.separator}
+${line.separator}
+Certain source files distributed by Oracle America and/or its affiliates are${line.separator}
+subject to the following clarification and special exception to the GPL, but${line.separator}
+only where Oracle has expressly included in the particular source file's header${line.separator}
+the words "Oracle designates this particular file as subject to the "Classpath"${line.separator}
+exception as provided by Oracle in the LICENSE file that accompanied this code."${line.separator}
+${line.separator}
+    Linking this library statically or dynamically with other modules is making${line.separator}
+    a combined work based on this library.  Thus, the terms and conditions of${line.separator}
+    the GNU General Public License cover the whole combination.${line.separator}
+${line.separator}
+    As a special exception, the copyright holders of this library give you${line.separator}
+    permission to link this library with independent modules to produce an${line.separator}
+    executable, regardless of the license terms of these independent modules,${line.separator}
+    and to copy and distribute the resulting executable under terms of your${line.separator}
+    choice, provided that you also meet, for each linked independent module,${line.separator}
+    the terms and conditions of the license of that module.  An independent${line.separator}
+    module is a module which is not derived from or based on this library.  If${line.separator}
+    you modify this library, you may extend this exception to your version of${line.separator}
+    the library, but you are not obligated to do so.  If you do not wish to do${line.separator}
+    so, delete this exception statement from your version.${line.separator}</license.gpl2>
+
+		<license.asm> ASM: a very small and fast Java bytecode manipulation framework${line.separator}
+ Copyright (c) 2000-2011 INRIA, France Telecom${line.separator}
+ All rights reserved.${line.separator}
+${line.separator}
+ Redistribution and use in source and binary forms, with or without${line.separator}
+ modification, are permitted provided that the following conditions${line.separator}
+ are met:${line.separator}
+ 1. Redistributions of source code must retain the above copyright${line.separator}
+ notice, this list of conditions and the following disclaimer.${line.separator}
+ 2. Redistributions in binary form must reproduce the above copyright${line.separator}
+ notice, this list of conditions and the following disclaimer in the${line.separator}
+ documentation and/or other materials provided with the distribution.${line.separator}
+ 3. Neither the name of the copyright holders nor the names of its${line.separator}
+ contributors may be used to endorse or promote products derived from${line.separator}
+ this software without specific prior written permission.${line.separator}
+${line.separator}
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ IS"${line.separator}
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ THE${line.separator}
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE${line.separator}
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+ BE${line.separator}
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR${line.separator}
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF${line.separator}
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ BUSINESS${line.separator}
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN${line.separator}
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)${line.separator}
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF${line.separator}
+ THE POSSIBILITY OF SUCH DAMAGE.${line.separator}</license.asm>
+
 	</properties>
 
 	<build>
@@ -938,7 +1320,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</license.jmockit>
 			<plugin>
 				<groupId>org.reficio</groupId>
 				<artifactId>p2-maven-plugin</artifactId>
-				<version>1.3.0</version>
+				<version>1.7.0</version>
 				<executions>
 					<execution>
 						<id>default-cli</id>
@@ -1167,6 +1549,22 @@ The Apache Software Foundation (http://www.apache.org/).
 										<artifact>
 											<id>com.github.jsqlparser:jsqlparser:${com.github.jsqlparser_jsqlparser.version}</id>
 											<transitive>false</transitive>
+											<source>true</source>
+										</artifact>
+									</artifacts>
+								</feature>
+								<feature>
+									<id>org.openjdk.nashorn.feature</id>
+									<version>${org.openjdk.nashorn_nashorn-core.version}</version>
+									<label>OpenJDK Nashorn</label>
+									<providerName>${project.groupId}</providerName>
+									<description>${project.description}</description>
+									<license>${license.gpl2}${license.asm}</license>
+									<generateSourceFeature>true</generateSourceFeature>
+									<artifacts>
+										<artifact>
+											<id>org.openjdk.nashorn:nashorn-core:${org.openjdk.nashorn_nashorn-core.version}</id>
+											<transitive>true</transitive>
 											<source>true</source>
 										</artifact>
 									</artifacts>
