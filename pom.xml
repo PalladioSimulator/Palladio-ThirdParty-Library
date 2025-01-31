@@ -4,7 +4,7 @@
 
 	<groupId>org.palladiosimulator.thirdparty-library</groupId>
 	<artifactId>parent</artifactId>
-	<version>5.2.1-SNAPSHOT</version>
+	<version>5.3.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -484,13 +484,13 @@ Eclipse Public License - v 2.0
 ${line.separator}
 
 ${line.separator}
-THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (“AGREEMENT”). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE (“AGREEMENT�). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 ${line.separator}
 1. DEFINITIONS
 ${line.separator}
 
 ${line.separator}
-“Contribution” means:
+“Contribution� means:
 ${line.separator}
 
 ${line.separator}
@@ -502,43 +502,43 @@ ${line.separator}
 ${line.separator}
         ii) additions to the Program;
 ${line.separator}
-    where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates” from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works.
+    where such changes and/or additions to the Program originate from and are Distributed by that particular Contributor. A Contribution “originates� from a Contributor if it was added to the Program by such Contributor itself or anyone acting on such Contributor's behalf. Contributions do not include changes or additions to the Program that are not Modified Works.
 ${line.separator}
 
 ${line.separator}
-“Contributor” means any person or entity that Distributes the Program.
+“Contributor� means any person or entity that Distributes the Program.
 ${line.separator}
 
 ${line.separator}
-“Licensed Patents” mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+“Licensed Patents� mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
 ${line.separator}
 
 ${line.separator}
-“Program” means the Contributions Distributed in accordance with this Agreement.
+“Program� means the Contributions Distributed in accordance with this Agreement.
 ${line.separator}
 
 ${line.separator}
-“Recipient” means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.
+“Recipient� means anyone who receives the Program under this Agreement or any Secondary License (as applicable), including Contributors.
 ${line.separator}
 
 ${line.separator}
-“Derivative Works” shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
+“Derivative Works� shall mean any work, whether in Source Code or other form, that is based on (or derived from) the Program and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship.
 ${line.separator}
 
 ${line.separator}
-“Modified Works” shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.
+“Modified Works� shall mean any work in Source Code or other form that results from an addition to, deletion from, or modification of the contents of the Program, including, for purposes of clarity any new file in Source Code form that contains any contents of the Program. Modified Works shall not include works that contain only declarations, interfaces, types, classes, structures, or files of the Program solely in each case in order to link to, bind by name, or subclass the Program or Modified Works thereof.
 ${line.separator}
 
 ${line.separator}
-“Distribute” means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.
+“Distribute� means the acts of a) distributing or b) making available in any manner that enables the transfer of a copy.
 ${line.separator}
 
 ${line.separator}
-“Source Code” means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.
+“Source Code� means the form of a Program preferred for making modifications, including but not limited to software source code, documentation source, and configuration files.
 ${line.separator}
 
 ${line.separator}
-“Secondary License” means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.
+“Secondary License� means either the GNU General Public License, Version 2.0, or any later versions of that license, including any exceptions or additional permissions as identified by the initial Contributor.
 ${line.separator}
 2. GRANT OF RIGHTS
 ${line.separator}
@@ -594,7 +594,7 @@ ${line.separator}
 ${line.separator}
 
 ${line.separator}
-Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (“Commercial Contributor”) hereby agrees to defend and indemnify every other Contributor (“Indemnified Contributor”) against any losses, damages and costs (collectively “Losses”) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Contributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor (“Commercial Contributor�) hereby agrees to defend and indemnify every other Contributor (“Indemnified Contributor�) against any losses, damages and costs (collectively “Losses�) arising from claims, lawsuits and other legal actions brought by a third party against the Indemnified Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
 ${line.separator}
 
 ${line.separator}
@@ -604,7 +604,7 @@ ${line.separator}
 ${line.separator}
 
 ${line.separator}
-EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE PROGRAM IS PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, AND TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE PROGRAM IS PROVIDED ON AN “AS IS� BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement, including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
 ${line.separator}
 6. DISCLAIMER OF LIABILITY
 ${line.separator}
@@ -638,7 +638,7 @@ Exhibit A – Form of Secondary Licenses Notice
 ${line.separator}
 
 ${line.separator}
-“This Source Code may also be made available under the following Secondary Licenses when the conditions for such availability set forth in the Eclipse Public License, v. 2.0 are satisfied: {name license(s), version(s), and exceptions or additional permissions here}.”
+“This Source Code may also be made available under the following Secondary Licenses when the conditions for such availability set forth in the Eclipse Public License, v. 2.0 are satisfied: {name license(s), version(s), and exceptions or additional permissions here}.�
 ${line.separator}
 
 ${line.separator}
@@ -898,7 +898,7 @@ ${line.separator}
 	  be used to endorse or promote products derived from this software without${line.separator}
 	  specific prior written permission.${line.separator}
 ${line.separator}
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY${line.separator}
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS� AND ANY${line.separator}
 EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED${line.separator}
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE${line.separator}
 DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY${line.separator}
